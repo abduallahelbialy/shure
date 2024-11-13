@@ -1,0 +1,435 @@
+{
+  "language": "English",
+  "lang": "en",
+  "hero-title": {
+    "span": "Benefits You",
+    "text": "Consultation That "
+  },
+  "blog": {
+    "label": "Welcome to the Shour Blog!",
+    "header": "Shour Newsletter"
+  },
+  "services-page": {
+    "title": "Online Medical Consultations: Healthcare at Your Fingertips",
+    "doctor-name": "Dr. Khaled Al-Anazi",
+    "specialization": "#Otolaryngology",
+    "date": "10/21/2024"
+  },
+  "contact-us": {
+    "text": {
+      "label1": "Let's talk now.",
+      "question": "How can we assist you?",
+      "pros": "Contact us 24/7.",
+      "label2": "Welcome!",
+      "goal": "We are always with you on the path to success.",
+      "paragraph": "We are happy to hear your news and see your developments from time to time, and we look forward to knowing how things are going for you. Welcome back! If this is your first visit, we are glad you chose us, and we trust that we will earn your satisfaction."
+    },
+
+    "form": {
+      "title": " Contact Us!",
+      "submit": "Submit",
+      "name": "First Name",
+      "email": "Email Adress",
+      "subject": "Subject of the Message",
+      "message": "Write your message",
+      "placeholder": {
+        "subject": "Subject of the Message ",
+        "message": "Write your message"
+      }
+    }
+  },
+  "login": {
+    "welcome": "Welcome back!",
+    "account-details": "Enter your account details to log in.",
+    "form": {
+      "name": "Facility Name",
+      "phone": "Please enter your phone number",
+      "checkbox": "Remember me",
+      "placeholder": {
+        "name": "Please enter the facility name",
+        "phone": "Please enter your phone number"
+      },
+      "no-account": "Don't have an account?",
+      "new-account": "Create an account"
+    }
+  },
+  "register": {
+    "breadcamps": {
+      "one": "Home",
+      "two": " Register as a Company",
+      "three": " Registration steps"
+    },
+    "steps": {
+      "one": "Facility Information",
+      "two": "Admin Information",
+      "three": "Upload Documents"
+    },
+    "facility": {
+      "head": "Step 1: Facility Data",
+      "form": {
+        "name": "Facility Name",
+        "address": "Address",
+        "phone": " Phone Number",
+        "email": " Email Address",
+        "placeholder": {
+          "name": "Please enter the facility name",
+          "address": "Please enter the address ",
+          "phone": "Please enter the phone number  ",
+          "email": "Please enter the email address "
+        },
+        "submit": "Proceed to Step 2"
+      }
+    },
+    "responsible-information": {
+      "head": "Step 2: Responsible Person Information",
+      "form": {
+        "name": "Full Name",
+        "id": "ID Number",
+        "phone": " Phone Number",
+        "email": " Email Address",
+        "placeholder": {
+          "name": "Please enter your full name",
+          "id": "Please enter your ID number",
+          "phone": "Please enter the phone number  ",
+          "email": "Please enter the email address "
+        },
+        "checkbox": "Make sure to enter your mobile number correctly to receive the verification code!",
+        "submit": "Proceed to Step 3"
+      }
+    },
+    "upload-docs": {
+      "head": "Step Three: Upload Documents",
+      "form": {
+        "commercial": "commercial register",
+        "license": "License to practice the profession",
+        "another": "Other documents (optional)",
+        "upload": "*., *.,*.bng, *.gif",
+        "max-size": "Maximum size is 01 GB",
+        "submit": "Register the Facility"
+      }
+    },
+    "otp": {
+      "head": "Mobile Number Verification",
+      "sub-title": "Enter the code sent to your mobile number.",
+      "no-code": "Didn’t receive the code?",
+      "new-code": "Resend the code",
+
+      "submit": "Account Verification"
+    },
+    "optional-branch": {
+      "head": "Do you have other branches you want to add?",
+      "form": {
+        "country": "Country",
+        "city": "City",
+        "street": "District",
+        "hara": "Street",
+        "placeholder": {
+          "country": "Saudi Arabia",
+          "city": "Riyadh",
+          "street": "Al Yasmeen",
+          "hara": "Omar Ibn Al Khattab"
+        },
+        "submit": "Add Another Branch",
+        "skip": "Skip and Create Account for the Facility"
+      }
+    },
+    "congrats": {
+      "head": "Congratulations, your facility has been successfully registered",
+      "welcome": "Thank you, you can now make reservations",
+      "btn": "Go to your dashboard"
+    }
+  },
+  "services-card": {
+    "card1": {
+      "title": "Instant Medical Consultations via Video",
+      "text": "Connect directly with specialized doctors from various medical fields through comfortable and secure video consultations..."
+    },
+    "card2": {
+      "title": "Easily Book Medical Appointments",
+      "text": "Save time and effort with a straightforward appointment booking system. Choose the right doctor and book your appointment..."
+    },
+    "card3": {
+      "title": "Manage Your Entire Medical Record",
+      "text": "You can fully manage your medical record through the app, including your personal information and medical history..."
+    },
+    "card4": {
+      "title": "24/7 Support and Assistance",
+      "text": "We’re always here to help. Our medical support team is available around the clock to answer your questions and inquiries..."
+    }
+  },
+  "hero-subtitle": "And Enhances Your Health And",
+  "hero-subtitle-span": "well-being.",
+  "common-questions": "Frequently Questions",
+  "doctor-waiting": "+100 doctors are waiting for you!",
+  "hero-book": {
+    "text1": "Book your appointments, ",
+    "text2": "track your health status, ",
+    "text3": "and communicate with ",
+    "text4": "your doctors easily ",
+    "text5": "through ",
+    "text6": "our app."
+  },
+  "btns": {
+    "Entity-Register": "Register Entity",
+    "Entity-Register-1": "Register as a healthcare facility",
+    "book": "Register Now"
+  },
+  "plachHolder": {
+    "email": "Enter Your Email"
+  },
+  "menuitems": {
+    "home": {
+      "text": "Home"
+    },
+    "services": {
+      "text": "Services"
+    },
+    "questions": {
+      "text": "Frequently Questions"
+    },
+    "blog": {
+      "text": "Blogs"
+    },
+
+    "contact": {
+      "text": "Contact Us"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Highlighted medical services provided through the Shor platform"
+  },
+  "patient": {
+    "title": "Patient App",
+    "description": "An innovative design to enhance the personalized healthcare experience",
+    "download": "Download the Patient App here"
+  },
+  "Practitioner": {
+    "title": "Healthcare Practitioner App",
+    "description": "An exceptional design that enhances efficiency in healthcare delivery",
+    "download": "Download the Healthcare Practitioner App here"
+  },
+  "reviews": {
+    "title": "Patient Testimonials",
+    "description": "Testimonials and opinions from patients satisfied with the service."
+  },
+  "medical-articles": {
+    "title": "Our Medical Articles",
+    "description": "Medical Tips"
+  },
+  "review": {
+    "r1": {
+      "name": "Ziad Al-Washmi",
+      "text": "As a parent of two children, it's hard to find time to go to clinics. The Shour platform has made medical consultations extremely easy.",
+      "date": "October 21, 2024",
+      "country": "Saudi Arabia",
+      "rate": "5.0"
+    },
+    "r2": {
+      "name": "Ziad Al-Washmi",
+      "text": "As a parent of two children, it's hard to find time to go to clinics. The Shour platform has made medical consultations extremely easy.",
+      "date": "October 21, 2024",
+      "country": "Saudi Arabia",
+      "rate": "5.0"
+    },
+    "r3": {
+      "name": "Ziad Al-Washmi",
+      "text": "As a parent of two children, it's hard to find time to go to clinics. The Shour platform has made medical consultations extremely easy.",
+      "date": "October 21, 2024",
+      "country": "Saudi Arabia",
+      "rate": "5.0"
+    }
+  },
+  "Fqas": {
+    "title": "Learn more with",
+    "description": "Frequently Asked Questions"
+  },
+  "doctors": {
+    "card1": {
+      "title": "Ear, Nose, and Throat (ENT) Medicine",
+      "description": "With the Shour Medical Platform, getting a medical consultation has never been easier. Through online medical consultations, you can now communicate with a select group of specialized doctors directly from your home or anywhere else...",
+      "date": "2024-10-21",
+      "name": "Dr. Khaled Al-Anzi",
+      "depart": "ENT Medicine"
+    },
+    "card2": {
+      "title": "How Do Online Medical Consultations Work?",
+      "description": "The Shour platform allows you to communicate with qualified and certified doctors through interactive video consultations. You can ask your medical questions, discuss your health condition, and receive a quick diagnosis and recommendations for appropriate treatment...",
+      "date": "2024-10-21",
+      "name": "Dr. Khaled Al-Anzi",
+      "depart": "ENT Medicine"
+    }
+  },
+  "dashboard_pages": {
+    "sidebar": {
+      "menu": "menu",
+      "dashboard": "Dashboard",
+      "reservations": "Reservations",
+      "payments": "Payments",
+      "review-payments": "Review past payments",
+      "help-center": "Help Center",
+      "add-branches": "Add Branches",
+      "send-attachments": "Send attachments",
+      "copywrights": {
+        "one": "© All rights reserved Sure Medical Company",
+        "two": "Developed with precision by Termeez Tech"
+      }
+    },
+    "dashboard": {
+      "title": {
+        "main": "Book a Consultation Session",
+        "sub": "Please enter the patient's information to book the consultation."
+      },
+      "form": {
+        "title": "\"Select the best option to search for patient information.\"",
+        "btns": {
+          "search-by-id": "Search by ID",
+          "search-by-mobile": "Search by Mobile Number",
+          "verify-code": "Send Verification Code",
+          "Patient": "Patient ID Number ",
+          "Follow": "Follow",
+          "Step": "Step 2: Payment",
+          "Cardholder": "Cardholder Name ",
+          "Cardholdert": "Card number",
+          "Expiry": "Expiry Date"
+        },
+        "search-placeholders": "PLease enter your phone number",
+        "search-placeholdersn": "0545758596",
+        "search-placeholdersnc": "00000000 0000 0000",
+        "no-sessions": {
+          "title": "Number of Sessions",
+          "placeholder": "session 01 - 15 Minutes"
+        },
+        "test-type": {
+          "title": "Specialty Type Test",
+          "consultant": "Consultant",
+          "specialist": "Specialist"
+        },
+        "id-types": {
+          "title": "Please select ID type",
+          "type-1": "National identity",
+          "type-2": "Resident ID",
+          "type-3": "Passport number",
+          "type-4": "Border number"
+        }
+      },
+      "reservations": {
+        "placeholder": "Search for patients from here",
+        "table": {
+          "col-1": "Patient's name",
+          "col-2": "Number of sessions",
+          "col-3": "Mobile number",
+          "col-4": "e-mail",
+          "col-5": "address",
+          "col-6": "Booking type",
+          "col-7": "Date and time of booking",
+          "col-8": "actions"
+        }
+      }
+    },
+    "payments": {
+      "cards": {
+        "card-1": "Number of booked sessions - Consultant",
+        "card-2": "Number of booked sessions - Specialist",
+        "card-22": "Number of reservations for counseling sessions - specialist",
+        "card-3": "Value Added Tax",
+        "card-4": "Total amounts due for payment",
+        "card-5": "Number of reservations for counseling sessions - specialist",
+        "vat": "The amount includes VAT.",
+        "currency": "Riyals",
+        "Number": "Number of sessions booked",
+        "Numbers": "Number of sessions booked - Consultant",
+        "min": "Min",
+        "Nsessions": "Number of sessions in minutes",
+        "Nsessionsa": "Number of sessions booked - specialist",
+
+        "Savepayment": "Save payment information in my account for future payments",
+        "Paymentss": " Payment confirmation",
+        "Continue": "Continue",
+
+
+        "Simplified": "Simplified Tax Invoice",
+        "Taxinvoice": "Tax invoice",
+        "NationalCompany": "National Company",
+        "RiyadhPearlStreet": "Riyadh - Pearl Street",
+        "MinistryofHealth": "Ministry of Health - Business Interface",
+        "Taxg":"Tax Registration Number",
+"Taxregistration":"Tax registration number",
+"Invoices":"Invoice number",
+"Date":"Date",
+"DateSeptember":"Date: September 25, 2022",
+"DueDate":"Due Date",
+"Billto":"Bill to",
+"Customer":"Customer",
+"AbdullahTrading":"Abdullah Trading",
+"AbdullahAhmed":"Abdullah Ahmed Co.",
+"Payment":"Payment",
+"Taxnumber":"Tax number",
+        "Downloadthefountain":"  Download the fountain",
+
+"Invoice":"Invoice",
+"KhaledAl-Anazi":"Khaled Al-Anazi",
+"address":" Al-Waleed Street 515, Riyadh - Saudi Arabia",
+"addresss":" Saudi laboratory facility",
+  "Modifyinformation":"  Modify information",
+ "ThisGR":" This GR code is encoded as per ZATCA e-invoicing requirements",
+        "Financial": "Financial amount"
+      },
+      "summary": {
+        "summary": "Summary",
+        "warning": "Please pay the outstanding amounts on the facility to benefit from the advantages of the Sure Medical Platform.",
+        "payment": "Payment",
+        "amounts-due": "Amounts Due",
+        "amounts-duee": "Amounts due for payment",
+        "approximate": "Approximate amount",
+        "payment-management": "Payment Management",
+        "Previous-Payments": "Previous payments"
+      }
+    }
+  },
+  "footer": {
+    "newsletter": "Subscribe to our newsletter",
+    "subscribe": "Subscribe",
+    "privacypolicy": "Privacy Policy",
+    "copywrights": "© All rights reserved, Shor Application Company",
+    "copywrights2": "Developed with precision by Termeez Tech",
+    "terms": "Terms and Conditions",
+    "description": {
+      "span": "Shor Medical",
+      "text": "is a specialized platform that combines modern technology and medical expertise to provide comprehensive healthcare services in an easy and efficient way. We believe that access to medical consultations should be fast, convenient, and reliable"
+    },
+    "apps": {
+      "patient": "Download the app for patients",
+      "doctors": "Download the app for doctors"
+    },
+    "services": {
+      "title": "Services",
+      "consultations": { "text": "medical consultations", "link": "" },
+      "communication": {
+        "text": "Direct communication with doctors",
+        "link": ""
+      },
+      "Health-Application": {
+        "text": "Health Practitioner Application",
+        "link": ""
+      },
+      "Patient-Application": { "text": "Patient Application", "link": "" }
+    },
+    "quicklinks": {
+      "title": "Quick Links",
+      "blog": { "text": "The Blog", "link": "" },
+      "platform": { "text": "About the Platform", "link": "" },
+      "contact": { "text": "Contact Us", "link": "" },
+      "FQAS": { "text": "Frequently Asked Questions", "link": "" }
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "whatsapp": { "text": "+966 586 -94756", "link": "" },
+      "email": { "text": "", "link": "" },
+      "map": {
+        "text": "King Fahd Street, Jeddah, Kingdom of Saudi Arabia.",
+        "link": ""
+      }
+    }
+  }
+}

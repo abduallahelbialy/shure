@@ -1,0 +1,47 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use the latest version of Ubuntu
+
+    steps:
+      - name: Deployment
+        uses: appleboy/ssh-action@master  # Use the SSH action for deployment
+        with:
+          host: ${{ secrets.MAIN_SSH_HOST }}  # Host for SSH
+          port: ${{ secrets.MAIN_SSH_PORT }}  # Port for SSH
+          key: ${{ secrets.MAIN_SSH_PRIVATE_KEY }}  # SSH private key
+          username: ${{ secrets.MAIN_SSH_USERNAME }}  # SSH username
+          script: |
+            # SSH into the server and perform deployment tasks
+            cd /var/www/shure-platform.magicalcodeteam.com/  # Navigate to the project directory
+            git checkout -f  # Force checkout to reset any local changes
+            git pull origin main  # Pull the latest changes from the main branch
+
+            # Install NVM if not already installed
+            if ! command -v nvm &> /dev/null
+            then
+              echo "NVM not found, installing..."
+              curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+              export NVM_DIR="$HOME/.nvm"
+              [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+            else
+              echo "NVM is already installed."
+            fi
+
+            # Install Node.js v22 using NVM
+            nvm install 22
+            nvm use 22
+
+            # Ensure npm is installed and updated
+            npm install -g npm
+
+            # Install dependencies again
+            npm install  # Install dependencies
+            npm run build  # Build the project again
+            pm2 restart ecosystem.config.cjs  # Restart the application using PM2

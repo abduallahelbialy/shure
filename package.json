@@ -1,0 +1,35 @@
+{
+  "name": "shure-platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/i18n": "^8.5.5",
+    "flowbite": "^2.5.2",
+    "jspdf": "^2.5.2",
+    "material-design-icons-iconfont": "^6.7.0",
+    "nuxt": "^3.13.2",
+    "pinia": "^2.2.4",
+    "vue": "^3.5.11",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.18.1",
+    "@nuxt/typescript-build": "^3.0.2",
+    "@types/node": "^22.7.9",
+    "autoprefixer": "^10.4.20",
+    "pm2": "^5.4.2",
+    "postcss": "^8.4.47",
+    "sass": "^1.80.6",
+    "sass-loader": "^16.0.3",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  }
+}

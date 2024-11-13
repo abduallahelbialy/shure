@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "flowbite";
+
+
+body {
+  font-family: "Montserrat-Arabic", sans-serif;
+}
+
+.en {
+  transform: scale(-1, 1);
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 104px;
+  height: 45px;
+  padding: 10px;
+  margin: 0 5px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.border-primary {
+  border-color: #005dba;
+}
+
+.con {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.title-wrap {
+  position: relative;
+  top: 45px;
+}
+@media (max-width: 768px) {
+  .title-wrap {
+    top: 35px;
+  }
+}
+@media (max-width: 330px) {
+  .title-wrap {
+    top: 29px;
+  }
+}
+/* Small screens and up (≥576px) */
+@media (min-width: 576px) {
+  .con {
+    max-width: 540px;
+  }
+}
+.quated::before {
+  content: "“";
+}
+
+.quated::after {
+  content: "”";
+}
+.overflow-hidden-scrollbar {
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.overflow-hidden-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+/* Medium screens and up (≥768px) */
+@media (min-width: 768px) {
+  .con {
+    max-width: 720px;
+  }
+}
+
+/* Large screens and up (≥992px) */
+@media (min-width: 992px) {
+  .con {
+    max-width: 960px;
+  }
+}
+
+/* Extra large screens and up (≥1200px) */
+@media (min-width: 1200px) {
+  .con {
+    max-width: 1140px;
+  }
+}
+
+/* Extra-extra large screens and up (≥1400px) */
+@media (min-width: 1400px) {
+  .con {
+    max-width: 1340px;
+  }
+}
+
+

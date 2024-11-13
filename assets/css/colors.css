@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-black {
+  background-color: black !important;
+}
+.bg-input {
+  background-color: #f6f6f6;
+}
+.bg-download {
+  background-color: #f5f5f5;
+}
+.text-black {
+  color: black;
+}
+.bg-light-blue {
+  background: #f2f9ff;
+}
+.bg-primary {
+  background-color: #005dba !important;
+}
+.text-primary {
+  color: #005dba;
+}
+.text-white {
+  color: #fff;
+}
+.text-gray {
+  color: #9d9d9d;
+}
+.text-gray-500 {
+  color: #5a5a5a;
+}
+.bg-green {
+  background-color: #65ce00;
+}
+.text-green {
+  color: #65ce00;
+}
